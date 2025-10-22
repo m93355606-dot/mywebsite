@@ -1,7 +1,7 @@
 body{
     display: flex;
 
-    align-items:  center;
+    align-items:  flex-start;
  background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 
@@ -28,12 +28,13 @@ div{
 
 form{
 
-    border: solid white ;
+    border:solid white 5px;
    display: grid;
    padding: 15px;
-    border-radius:10px;
+    border-radius:25px;
     flex-direction: column;
     margin-top:7vh ;
+    
 
     
 }
@@ -41,10 +42,12 @@ form{
 nav{ 
    
     border: solid white;
-margin-bottom: 80vh;
+display: flex;
     border-radius:25px;
-    padding: 10px;
-    display:flex;
+    padding: 1vh;
+    
+   
+ 
     
    
 }
@@ -76,3 +79,17 @@ margin: 15vh;
 font-size: 20px;
     
 }
+
+
+#submit, #reset{
+    
+    border: solid white;
+    
+;   
+}
+
+audio{
+    margin-top: 3vh;
+    border-radius: 25px;
+}
+
