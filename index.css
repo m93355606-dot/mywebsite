@@ -93,3 +93,11 @@ audio{
     border-radius: 25px;
 }
 
+ #audio_label{
+   margin-top: 3vh;
+  font-size: 3vh;
+}
+
+nav:hover{
+    color: rgba(0, 212, 255, 1));
+}
