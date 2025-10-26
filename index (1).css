@@ -1,0 +1,64 @@
+body{
+ 
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: #1a00bd;
+    color: white;
+    align-items: center;
+  
+   
+    height: 100vh;
+    
+
+
+
+
+  
+}
+
+
+*{
+    
+    font-size: larger;
+    
+    
+}
+
+h1{
+    font-size: 6vh;
+}
+
+
+
+
+
+div{
+
+  display: flex;
+  
+padding:5vh;
+  align-items: center;
+  justify-content: center;
+  width:40%;
+  
+}
+
+p:hover{
+
+    color: aqua;
+}
+
+
+h1:hover{
+   
+    color: aqua;
+}
+
+
+img{
+    max-height: 20vh;
+    max-width: 15vh;
+    
+    
+}
