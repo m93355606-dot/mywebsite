@@ -1,8 +1,10 @@
 body{
     display: flex;
 
-    align-items:  flex-start;
- background: #020024;
+    align-items: flex-end;
+height:100%;
+padding: 0;
+    
 background-color: #1b00bf ;
 
   
@@ -17,11 +19,12 @@ color: white;
 
 div{
    
-    margin: auto;
-    
+   
     align-items: center;
+  
     flex-direction: column;
     display: flex;
+   
 
 
 }
@@ -29,24 +32,29 @@ div{
 form{
 
     border:solid white 5px;
-   display: grid;
+display: flex;
    padding: 15px;
     border-radius:25px;
     flex-direction: column;
     margin-top:2vh ;
+    width: min-content;
+    
     
 
     
 }
 
-nav{ 
-   
+nav{
+    
+    
     border: solid white;
-display: flex;
+
     border-radius:25px;
     padding: 1vh;
-    margin-top: 1vh;
-    
+
+    height: min-content;
+
+    f
    
  
     
@@ -78,8 +86,10 @@ p{
 border: solid ;
 border-radius: 15px;
 padding: 1vh;
+
 margin-bottom: auto;
 font-size: 30px;
+
 
     
 }
@@ -106,8 +116,12 @@ audio{
 img{
     max-width:10vh;
     max-height: 9,5vh;
-   margin-right: 3vh;
+   margin-right: auto;
    border-radius: 25px;
+   padding: 0;
+   height: min-content;
+   display: inline-flex;
+   
 }
 
 #favicon{
@@ -129,6 +143,7 @@ a:hover{
 label:hover{
 transform: scale(110%);
 transition-duration: 0.2s;
+
 }
 
 
@@ -139,7 +154,34 @@ h1:hover{
 
     transform: scale(110%);
     transition-duration: 0.3s;
+    
+}
+
+
+p:hover{
+
+    transform: scale(110%);
+    transition-duration: 0.3s;
+}
+
+
+p{
+
+    margin-bottom: 2vh;
+    padding: 2vh;
+    
 }
 
 
 
+.nav{
+
+    width: max-content;
+    flex-direction: row;
+    gap: 2vh;
+    margin-right: auto;
+    
+    justify-content: left;
+
+    
+}
