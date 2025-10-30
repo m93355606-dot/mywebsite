@@ -217,7 +217,8 @@ width: 100%;
 
 h1{
     margin-right: auto;
-    font-size: small;
-    
+    font-size: medium;
+    margin-left: auto;
+
 }
 }
